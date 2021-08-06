@@ -19,7 +19,7 @@ function Contact() {
                 </a>
               </Col>
               <Col xs={4}>
-              <a href="https://wa.me/447872607485" target="_blank">
+              <a href="https://wa.me/447909010070" target="_blank">
                 <img src="logos/whatsapp logo_icon.png"/>
               </a>
               </Col>
