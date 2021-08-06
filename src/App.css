@@ -39,9 +39,10 @@
   font-size: 28pt;
 }
 
-.social-icons.container {
+.social-icons {
   width: 30vw;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-icons img {

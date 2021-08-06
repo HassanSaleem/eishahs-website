@@ -18,25 +18,25 @@ function Home() {
         })}
           </Carousel>
           <br />
-          <Container  className="social-icons">
-          <Row className="justify-content-md-center">
-              <Col xs={4}>
+          <table   className="social-icons">
+          <tr className="md-center">
+              <th>
               <a href="https://www.instagram.com/hennabyeishah/" target="_blank">
                 <img src="logos/instagram logo_icon.png"/>
                 </a>
-              </Col>
-              <Col xs={4}>
+              </th>
+              <th>
               <a href="https://wa.me/447909010070" target="_blank">
                 <img src="logos/whatsapp logo_icon.png"/>
               </a>
-              </Col>
-              <Col xs={4}>
+              </th>
+              <th>
               <a href="mailto:eishahtariq@gmail.com" target="_blank">
                 <img src="logos/gmail_mail_logo_social_icon.png"/>
                 </a>
-              </Col>
-            </Row>
-          </Container>
+              </th>
+            </tr>
+          </table>
         </div>
         </Fade>
       );
