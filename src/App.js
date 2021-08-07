@@ -44,7 +44,7 @@ function App() {
         <div className="headerWrapper">
           <img src="logos/logo.png" className="header" />
           <br />
-          <a>Mehndi by Eishah</a>
+          <a>Henna by Eishah</a>
         </div>
 
         <Route exact path="/" render={Home}/>
