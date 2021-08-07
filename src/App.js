@@ -12,7 +12,9 @@ import Services from './pages/services'
 import {Navbar, Container, Nav} from 'react-bootstrap'
 
 
+
 function App() {
+
   return (
     <div className="App">
 
@@ -47,7 +49,7 @@ function App() {
 
         <Route exact path="/" render={Home}/>
         <Route exact path="/Services" render={Services}/>
-        <Route exact path="/portfolio" render={Portfolio}/>
+        <Route exact path="/portfolio" render= {() => <Portfolio />}/>
         <Route exact path="/contact" render={Contact}/>
 
     </Router>
