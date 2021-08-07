@@ -25,6 +25,48 @@
   color: white;
 }
 
+.gallery.container .col {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.portfolioCol img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.modal-dialog.portfolioModal {
+  max-width: 80% ;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-dialog.portfolioModal .modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-dialog.portfolioModal .modal-content .modal-header {
+  border: none;
+  padding: 0%;
+}
+
+.modal-dialog.portfolioModal .modal-content .modal-body {
+  padding: 0;
+}
+
+.modal-dialog.portfolioModal img {
+  max-width: 90%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
 .header {
   padding-top: 10px;
   max-width: 80%;
