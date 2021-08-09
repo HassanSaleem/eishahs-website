@@ -6,17 +6,19 @@ function Home() {
       <div className="home">
 
         <br/>
+        <div className="homeCarousel">
         <Carousel variant="dark">
         {homeImages.map(img => {
           return <Carousel.Item>
                   <img
-                    className="d-block mx-auto w-75"
+                    className="mx-auto"
                     src={"images/IMG_home".concat(img, ".jpg")}
                     alt="First slide"
                   />
                 </Carousel.Item>
         })}
           </Carousel>
+          </div>
           <br />
           <table   className="social-icons">
           <tr className="md-center">
