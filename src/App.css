@@ -3,13 +3,27 @@
   padding: 0;
   border: 0;
   outline: 0;
-  font-size: 100%;
   vertical-align: baseline;
   background: transparent;
 }
 
+.services  {
+  font-family: 'Cormorant';
+  padding-left: 15% ;
+  padding-right: 15%;
+  font-size: 20pt;
+}
+
+.artist  {
+  font-family: 'Cormorant';
+  padding-left: 15% ;
+  padding-right: 15%;
+  font-size: 20pt;
+}
+
 .App {
   text-align: center;
+  padding-bottom: 10%;
 }
 
 .headerWrapper
@@ -80,17 +94,35 @@
 
 
 
-@media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
   .headerWrapper
   {
-    height: 15vh ;  
+    height: 20vh ; 
   }
 
-  .homeCarousel img {
-    display: block;
-    width: 100%;
+  .homeCarousel {
+    margin-top: -20%;
+  }
+
+  .homeCarousel .imgParent {
+    height: 90vh; /* Can be anything */
+    width: 100vw; /* Can be anything */
+    position: relative;
 
   }
+
+  .homeCarousel .imgParent img {
+    max-height: 100%;
+    max-width: 100%;
+    width: fit-content;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
   .modal-dialog.portfolioModal {
     max-width: 100% ;
@@ -123,7 +155,25 @@
 @media only screen and (min-width: 600px) {
   .headerWrapper
   {
-    height: 28vh ;  
+    height: 30vh ;  
+  }
+
+
+  .carousel .imgParent {
+    display: block;
+    height: 80vh;
+    width: 90vw;
+    max-height: 80;
+    max-width: 90vw;
+    margin: auto;
+  }
+
+  .carousel img {
+    width: fit-content;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+
   }
 
   .modal-dialog.portfolioModal {
