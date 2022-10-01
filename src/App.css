@@ -7,18 +7,21 @@
   background: transparent;
 }
 
-.services  {
+
+.content  {
   font-family: 'Cormorant';
   padding-left: 15% ;
   padding-right: 15%;
   font-size: 20pt;
 }
 
-.artist  {
-  font-family: 'Cormorant';
-  padding-left: 15% ;
-  padding-right: 15%;
-  font-size: 20pt;
+@media only screen and (max-width: 600px) {
+.content {
+  font-size: 14pt;
+  padding-right: 5%;
+  padding-left: 5% ;
+
+  }
 }
 
 .App {

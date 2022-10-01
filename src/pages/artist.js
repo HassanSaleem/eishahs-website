@@ -8,9 +8,9 @@ function Artist() {
 
 
     return <Fade in={true} appear={true}>
-        <div className='artist'>
+        <div className='content'>
             <div className="title">Artist</div>
-
+            <br />
             <p>
                 Eisha, the artist behind Hennabyeishah, has been adorning hands with henna since 2010.
                 Based in East London, she travels to London and the surrounding areas.

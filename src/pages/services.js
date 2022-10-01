@@ -6,8 +6,9 @@ function Services() {
   return (
     <Fade in={true} appear={true}>
 
-      <div className="services">
+      <div className="content">
         <div className="title">Services</div>
+        <br />
         <h1>Bridal Henna</h1>
         <p>
           Bridal henna is bespoke to each bride and can be personalized according to your request. I
