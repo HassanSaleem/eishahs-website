@@ -45,7 +45,7 @@ function App() {
           of them to render at a time
         */}
         <div className="headerWrapper">
-          <img src="logos/logo.png" className="header" />
+          <img src="logos/logo.png" alt="logos/logo.png" className="header" />
           <br />
           <a style={{fontFamily:'Pacifico'}}>Henna by Eishah</a>
         </div>
@@ -63,17 +63,17 @@ function App() {
           <tr className="md-center">
               <th>
               <a href="https://www.instagram.com/hennabyeishah/" target="_blank">
-                <img src="logos/instagram logo_icon.png"/>
+                <img src="logos/instagram logo_icon.png" alt="logos/instagram logo_icon.png"/>
                 </a>
               </th>
               <th>
               <a href="https://wa.me/447909010070" target="_blank">
-                <img src="logos/whatsapp logo_icon.png"/>
+                <img src="logos/whatsapp logo_icon.png" alt="logos/whatsapp logo_icon.png"/>
               </a>
               </th>
               <th>
               <a href="mailto:eishahtariq@gmail.com" target="_blank">
-                <img src="logos/gmail_mail_logo_social_icon.png"/>
+                <img src="logos/gmail_mail_logo_social_icon.png" alt="logos/gmail_mail_logo_social_icon.png"/>
                 </a>
               </th>
             </tr>

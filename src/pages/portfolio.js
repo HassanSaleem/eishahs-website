@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Fade, Container, Col, Row, Button, Modal} from 'react-bootstrap'
+import {Fade, Container, Col, Row, Modal} from 'react-bootstrap'
 
 
 
@@ -28,7 +28,7 @@ function Portfolio() {
               {row.map(col => {
                 return <Col >
                 <div className="portfolioCol" onClick={() => handleShow(col)}>
-                <img src={"images/IMG_portfolio".concat(col, "-min.jpg")}/>
+                <img src={"images/IMG_portfolio".concat(col, "-min.jpg")} alt=""/>
                 </div>
                 </Col>
               })}
@@ -38,7 +38,7 @@ function Portfolio() {
         <Modal show={show} onHide={handleClose} dialogClassName="portfolioModal">
           <Modal.Header closeButton />
           <Modal.Body>
-            <img src={"images/IMG_portfolio".concat(modalImage, "-min.jpg")}/>
+            <img src={"images/IMG_portfolio".concat(modalImage, "-min.jpg")} alt=""/>
           </Modal.Body>
         </Modal>
       </div>

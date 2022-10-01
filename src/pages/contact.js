@@ -1,4 +1,4 @@
-import {Fade, Container, Col, Row} from 'react-bootstrap'
+import {Fade } from 'react-bootstrap'
 
 function Contact() {
     return (

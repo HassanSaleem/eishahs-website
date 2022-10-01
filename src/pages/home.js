@@ -1,4 +1,4 @@
-import { Carousel, Fade, Container, Col, Row } from 'react-bootstrap';
+import { Carousel, Fade } from 'react-bootstrap';
 function Home() {
     const homeImages = [1,2,3];
     return (
